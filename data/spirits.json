@@ -1,6 +1,87 @@
 {
   "zh-hant": {
-    "Season of Migration": {
+    "狂歡季": {
+      "spirit1": {
+          "name": "狂歡雜耍者",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/de/Carnival-Juggler-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/58/Carnival-Juggler-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "項鍊", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Juggler-Neck-Accessory-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4b/Carnival-Juggler-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "黑色染料", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/97/Black-dye-container-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit2": {
+          "name": "狂歡動感舞者"  ,
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6a/Carnival-Athletic-Dancer-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/67/Carnival-Athletic-Dancer-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "白色染料", "cst": 12, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/64/White-dye-container-icon.png"},
+          {"nm": "斗篷", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/c4/Carnival-Athletic-Dancer-Cape-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/9a/Carnival-Athletic-Dancer-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit3": {
+        "name": "狂歡特技演員",
+        "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/43/Carnival-Stunt-Actor-Spirit-cutout.png",
+        "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "斗篷", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/ad/Carnival-Stunt-Actor-Cape-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6e/Carnival-Stunt-Actor-Outfit-icon.png"},
+          {"nm": "髮型", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/78/Carnival-Stunt-Actor-Hair-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "帽子", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Carnival-Stunt-Actor-Head-Accessory-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit4": {
+          "name": "狂歡謎題導演",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/d1/Carnival-Puzzle-Director-Outfit-icon.png"},
+          {"nm": "帽子", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/f/fb/Carnival-Puzzle-Director-Head-Accessory-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "髮型", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/7d/Carnival-Puzzle-Director-Hair-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      }
+    },
+    "遷徙季": {
       "spirit1": {
           "name": "遷徙鐘匠",
           "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cf/Migrating-Bellmaker-cutout.png",
@@ -98,7 +179,7 @@
               ]
       }
     },
-    "Season of Lightmending": {
+    "織光季": {
       "spirit1": {
         "name": "織光冠軍",
         "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/e/eb/Lightmending-Champion-cutout.png",
@@ -197,7 +278,88 @@
       }
     }
   },"zh": {
-    "Season of Migration": {
+    "狂欢季": {
+      "spirit1": {
+          "name": "狂欢杂耍演员",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/de/Carnival-Juggler-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/58/Carnival-Juggler-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "項鍊", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Juggler-Neck-Accessory-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4b/Carnival-Juggler-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "黑色染料", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/97/Black-dye-container-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit2": {
+          "name": "狂欢竞技舞者"  ,
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6a/Carnival-Athletic-Dancer-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/67/Carnival-Athletic-Dancer-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "白色染料", "cst": 12, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/64/White-dye-container-icon.png"},
+          {"nm": "斗篷", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/c4/Carnival-Athletic-Dancer-Cape-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/9a/Carnival-Athletic-Dancer-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit3": {
+        "name": "狂欢特技演员",
+        "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/43/Carnival-Stunt-Actor-Spirit-cutout.png",
+        "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "斗篷", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/ad/Carnival-Stunt-Actor-Cape-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6e/Carnival-Stunt-Actor-Outfit-icon.png"},
+          {"nm": "髮型", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/78/Carnival-Stunt-Actor-Hair-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "帽子", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Carnival-Stunt-Actor-Head-Accessory-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit4": {
+          "name": "狂欢谜题导演",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/d1/Carnival-Puzzle-Director-Outfit-icon.png"},
+          {"nm": "帽子", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/f/fb/Carnival-Puzzle-Director-Head-Accessory-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "髮型", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/7d/Carnival-Puzzle-Director-Hair-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      }
+    },
+    "迁徙季": {
       "spirit1": {
           "name": "遷徙鐘匠",
           "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cf/Migrating-Bellmaker-cutout.png",
@@ -295,7 +457,7 @@
               ]
       }
     },
-    "Season of Lightmending": {
+    "织光季": {
       "spirit1": {
         "name": "織光冠軍",
         "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/e/eb/Lightmending-Champion-cutout.png",
@@ -394,6 +556,87 @@
       }
     }
   },"en": {
+    "Season of Carnival": {
+      "spirit1": {
+          "name": "Carnival Juggler",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/de/Carnival-Juggler-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/58/Carnival-Juggler-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "項鍊", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Juggler-Neck-Accessory-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4b/Carnival-Juggler-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/5/54/Carnival-Juggler-Emote-icon.png"},
+          {"nm": "黑色染料", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/97/Black-dye-container-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit2": {
+          "name": "Carnival Athletic Dancer"  ,
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6a/Carnival-Athletic-Dancer-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "面具", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/67/Carnival-Athletic-Dancer-Mask-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "白色染料", "cst": 12, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/64/White-dye-container-icon.png"},
+          {"nm": "斗篷", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/c4/Carnival-Athletic-Dancer-Cape-icon.png"},
+          {"nm": "服裝", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/9/9a/Carnival-Athletic-Dancer-Outfit-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/be/Carnival-Athletic-Dancer-Emote-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit3": {
+        "name": "Carnival Stunt Actor",
+        "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/43/Carnival-Stunt-Actor-Spirit-cutout.png",
+        "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "斗篷", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/ad/Carnival-Stunt-Actor-Cape-icon.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/6/6e/Carnival-Stunt-Actor-Outfit-icon.png"},
+          {"nm": "髮型", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/78/Carnival-Stunt-Actor-Hair-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/a/a3/Carnival-Stunt-Actor-Emote-icon.png"},
+          {"nm": "帽子", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Carnival-Stunt-Actor-Head-Accessory-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      },
+      "spirit4": {
+          "name": "Carnival Puzzle Director",
+          "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
+          "items": [
+          {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
+          {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
+          {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "動作03", "cst": 24, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "魔法", "cst": 10, "season": false, "level": 3, "exp": "4", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "服裝", "cst": 0, "season": true, "level": 3, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/d/d1/Carnival-Puzzle-Director-Outfit-icon.png"},
+          {"nm": "帽子", "cst": 28, "season": false, "level": 4, "exp": "10", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/f/fb/Carnival-Puzzle-Director-Head-Accessory-icon.png"},
+          {"nm": "先祖任務", "cst": 0, "season": false, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/26/Spirit-relationship-icon.png"},
+          {"nm": "動作04", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
+          {"nm": "髮型", "cst": 0, "season": true, "level": 4, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/7/7d/Carnival-Puzzle-Director-Hair-icon.png"},
+          {"nm": "季心", "cst": 3, "season": true, "level": 5, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/c/cd/Season-of-Carnival-Heart-icon.png"}
+              ]
+      }
+    },
     "Season of Migration": {
       "spirit1": {
           "name": "遷徙鐘匠",
