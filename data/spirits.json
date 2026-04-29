@@ -65,8 +65,8 @@
           "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
           "items": [
           {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
-          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
           {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
           {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
@@ -343,8 +343,8 @@
           "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
           "items": [
           {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
-          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
           {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
           {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
@@ -621,8 +621,8 @@
           "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/b/bc/Carnival-Puzzle-Director-Spirit-cutout.png",
           "items": [
           {"nm": "動作01", "cst": 0, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
-          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "魔法", "cst": 4, "season": false, "level": 1, "exp": "2", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
+          {"nm": "陪伴先祖", "cst": 0,"season":false,"level":1,"exp":"0", "image":"https://static.wikia.nocookie.net/sky-children-of-the-light/images/3/35/Spirit-relationship-follow-icon.png"},
           {"nm": "樂譜", "cst": 19, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/4/4e/MusicSheet.png"},
           {"nm": "魔法", "cst": 7, "season": false, "level": 2, "exp": "3", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/28/Special-event-spell-icon.png"},
           {"nm": "動作02", "cst": 0, "season": true, "level": 2, "exp": "0", "image": "https://static.wikia.nocookie.net/sky-children-of-the-light/images/2/22/Carnival-Puzzle-Director-Emote-icon.png"},
