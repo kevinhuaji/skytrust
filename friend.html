@@ -281,7 +281,7 @@ button:active { transform: translateY(0); }
 <script>
 // --- 多國語言設定 ---
 const uiDict = {
-    'zh-hant': { langLabel: '語言', title: '好友樹規劃器', addFr: '➕ 新增', delFr: '刪除當前', t1: '總好感度:', t2: '已花費蠟燭:', b1: '點火 (+1)', b5: '送心 (+5)', b10: '禮包 (+10)', pv: '👀 全解鎖預覽', pvExit: '🔙 退出預覽', rst: '重置樹狀圖', export: '📥 匯出', import: '📤 匯入', myCandles: '我的蠟燭:', fmTitle: '選擇好友', search: '🔍 搜尋好友名稱...', cancel: '取消', ok: '確定', 
+    'zh-hant': { langLabel: '語言', title: '好友樹規劃器', addFr: '➕ 新增', delFr: '刪除當前', t1: '總好感度:', t2: '已花費蠟燭:', b1: '點火 (+1)', b5: '送心 (+5)', b10: '送禮包/季卡 (+10)', pv: '👀 全解鎖預覽', pvExit: '🔙 退出預覽', rst: '重置樹狀圖', export: '📥 匯出', import: '📤 匯入', myCandles: '我的蠟燭:', fmTitle: '選擇好友', search: '🔍 搜尋好友名稱...', cancel: '取消', ok: '確定', 
         hint: `💡 提示：在未解鎖的圖示上 <b>點擊右鍵 (手機長按)</b> 可計算目標花費。`, 
         promptName: '請輸入好友暱稱：', noAff: '好感度不足', need: '需要', target: '🎯 目標計算', errOrd: '請先解鎖前一級的動作！',
         delConfirm: '確認刪除當前好友紀錄嗎？', resetConfirm: '⚠️ 警告：這將清空當前好友的所有解鎖紀錄，確定嗎？', cancelUnlock: '確定要取消解鎖「{0}」嗎？',
@@ -289,7 +289,7 @@ const uiDict = {
         // --- 新增的彈窗翻譯 ---
         t_lv: '待解鎖等級：', t_can: '總需蠟燭：', t_inv: '庫存判定：', t_aff: '門檻好感度：', t_diff: '(還差 {0})', t_met: '(✅ 已達標)'
     },
-    'zh': { langLabel: '语言', title: '好友树规划器', addFr: '➕ 新增', delFr: '删除当前', t1: '总好感度:', t2: '已花费蜡烛:', b1: '点火 (+1)', b5: '送心 (+5)', b10: '礼包 (+10)', pv: '👀 全解锁预览', pvExit: '🔙 退出预览', rst: '重置树状图', export: '📥 导出', import: '📤 导入', myCandles: '我的蜡烛:', fmTitle: '选择好友', search: '🔍 搜索好友名称...', cancel: '取消', ok: '确定', 
+    'zh': { langLabel: '语言', title: '好友树规划器', addFr: '➕ 新增', delFr: '删除当前', t1: '总好感度:', t2: '已花费蜡烛:', b1: '点火 (+1)', b5: '送心 (+5)', b10: '送礼包/季卡 (+10)', pv: '👀 全解锁预览', pvExit: '🔙 退出预览', rst: '重置树状图', export: '📥 导出', import: '📤 导入', myCandles: '我的蜡烛:', fmTitle: '选择好友', search: '🔍 搜索好友名称...', cancel: '取消', ok: '确定', 
         hint: `💡 提示：在未解锁的图标上 <b>点击右键 (手机长按)</b> 可计算目标花费。`, 
         promptName: '请输入好友昵称：', noAff: '好感度不足', need: '需要', target: '🎯 目标计算', errOrd: '请先解锁前一级的动作！',
         delConfirm: '确认删除当前好友纪录吗？', resetConfirm: '⚠️ 警告：这将清空当前好友的所有解锁纪录，确定吗？', cancelUnlock: '确定要取消解锁「{0}」吗？',
@@ -297,7 +297,7 @@ const uiDict = {
         // --- 新增的彈窗翻譯 ---
         t_lv: '待解锁等级：', t_can: '总需蜡烛：', t_inv: '库存判定：', t_aff: '门槛好感度：', t_diff: '(还差 {0})', t_met: '(✅ 已达标)'
     },
-    'en': { langLabel: 'Lang', title: 'Friend Tree Planner', addFr: '➕ Add', delFr: 'Del Current', t1: 'Affection:', t2: 'Candles Spent:', b1: 'Light (+1)', b5: 'Heart (+5)', b10: 'Pack (+10)', pv: '👀 Preview All', pvExit: '🔙 Exit Preview', rst: 'Reset Tree', export: '📥 Export', import: '📤 Import', myCandles: 'My Candles:', fmTitle: 'Select Friend', search: '🔍 Search name...', cancel: 'Cancel', ok: 'OK', 
+    'en': { langLabel: 'Lang', title: 'Friend Tree Planner', addFr: '➕ Add', delFr: 'Del Current', t1: 'Affection:', t2: 'Candles Spent:', b1: 'Light (+1)', b5: 'Heart (+5)', b10: 'Gift Pack/Gift AP (+10)', pv: '👀 Preview All', pvExit: '🔙 Exit Preview', rst: 'Reset Tree', export: '📥 Export', import: '📤 Import', myCandles: 'My Candles:', fmTitle: 'Select Friend', search: '🔍 Search name...', cancel: 'Cancel', ok: 'OK', 
         hint: `💡 Hint: <b>Right-click (long-press)</b> to calc cost.`,
         promptName: 'Enter friend name:', noAff: 'Not enough affection', need: 'Requires', target: '🎯 Target Cost', errOrd: 'Unlock previous level first!',
         delConfirm: 'Delete current friend record?', resetConfirm: '⚠️ Warning: This will reset all unlocks for this friend. Are you sure?', cancelUnlock: 'Cancel unlock for "{0}"?',
