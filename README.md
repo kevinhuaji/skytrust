@@ -2,7 +2,7 @@
 
 這是一個出於興趣製作的網頁工具集合，旨在為《光遇 (Sky: Children of the Light)》的玩家提供更簡潔、直觀的資訊，幫助大家輕鬆規劃遊戲中的資源花費（蠟燭、好感度等）。
 
-🌍 **線上預覽 (Live Demo):** [點此前往網站](https://huaji55.github.io/skytrust/)
+🌍 **線上預覽 (Live Demo):** [點此前往網站](https://kevinhuaji.github.io/skytrust/)
 
 ---
 
