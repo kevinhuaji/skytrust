@@ -4,7 +4,7 @@
 
 This is a hobbyist web tool collection designed to provide a clean and intuitive information hub for "Sky: Children of the Light" players. It helps everyone easily plan their in-game resource expenditures (candles, hearts, ascended candles, etc.).
 
-🌍 **Live Demo:** [Click here to visit the site](https://skydata-lab.github.io/skydata/)
+🌍 **Live Demo:** [Click here to visit the site](https://kevinhuaji.github.io/skytrust/)
 
 ---
 
