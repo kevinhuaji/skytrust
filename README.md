@@ -1,8 +1,10 @@
+[繁體中文](README.md) | [English](README_en.md)
+
 # 🕯️ 光遇工具站 (Sky: Children of the Light Tools)
 
 這是一個出於興趣製作的網頁工具集合，旨在為《光遇 (Sky: Children of the Light)》的玩家提供更簡潔、直觀的資訊，幫助大家輕鬆規劃遊戲中的資源花費（蠟燭、好感度等）。
 
-🌍 **線上預覽 (Live Demo):** [點此前往網站](https://kevinhuaji.github.io/skytrust/)
+🌍 **線上預覽 (Live Demo):** [點此前往你的網站](https://skydata-lab.github.io/skydata/)
 
 ---
 
@@ -33,5 +35,12 @@
 ├── spirit.html           # 季節先祖計算器頁面
 ├── friend.html           # 好友樹規劃器頁面
 └── data/                 # 存放計算器所需的 JSON 資料
-    ├── spirits.json        # 季節先祖物品資料庫
+    ├── spirits.json      # 季節先祖物品資料庫
     └── friend_tree.json  # 好友樹節點資料庫
+```
+
+⚠️免責聲明 (Disclaimer)
+
+這是一個非官方的玩家自製專案，與 thatgamecompany 沒有任何從屬或合作關係。
+
+(This is an unofficial fan-made project and is not affiliated with thatgamecompany.)

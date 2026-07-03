@@ -162,6 +162,15 @@ button:active { transform: translateY(0); }
     .item-badge { font-size: 10px; padding: 2px 5px; top: -6px; right: -6px; }
     .items-row { width: 225px; } 
 }
+.collapse-arrow { font-size: 14px; transition: transform 0.25s ease; color: var(--text-muted); }
+.collapsible-header.collapsed .collapse-arrow { transform: rotate(-90deg); }
+.collapsible-body { overflow: hidden; max-height: 2000px; transition: max-height 0.3s ease, opacity 0.25s ease, margin-top 0.25s ease; opacity: 1; margin-top: 8px; }
+.collapsible-body.collapsed { max-height: 0; opacity: 0; margin-top: 0; }
+.version-item { border-left: 3px solid var(--danger-color); padding: 4px 0 4px 12px; margin-bottom: 10px; }
+.version-header { display: flex; gap: 10px; align-items: baseline; }
+.version-tag { font-weight: bold; font-size: 13px; }
+.version-date { font-size: 11px; color: var(--text-muted); }
+.version-content { margin: 4px 0 0; padding-left: 18px; font-size: 12.5px; color: var(--text-muted); }
 </style>
 </head>
 <body>
@@ -178,7 +187,9 @@ button:active { transform: translateY(0); }
     <div class="header-title" id="ui-title">光遇好友樹規劃器</div>
     <div class="top-controls">
         <button class="top-btn" onclick="toggleTheme()">🌓 Theme</button>
+        <a href="index.html" class="top-btn">🏠 Home</a>
     </div>
+    
 </header>
 
 <div class="dashboard">
@@ -221,7 +232,15 @@ button:active { transform: translateY(0); }
     </div>
     
     <div class="hint-box">
-        <div id="ui-hint">💡 提示：在未解鎖的圖示上 <b>點擊右鍵 (手機長按)</b> 可計算目標花費。</div>
+        <div id="ui-hint">💡 提示：在未解鎖的圖示上 <b>點擊右鍵 (手機長按)</b> 可計算目標花費。
+        </div>
+            <div class="collapsible-header" id="changelog-header" onclick="toggleChangelog()" style="cursor:pointer; display:flex; justify-content:space-between; align-items:center;">
+            <span>📝更新紀錄</span>
+            <span class="collapse-arrow">▼</span>
+            </div>
+        <div class="collapsible-body" id="changelog-body">
+            <div id="changelog-list"></div>
+        </div>
     </div>
 </div>
 
@@ -274,6 +293,7 @@ button:active { transform: translateY(0); }
             <button id="promptBtn" onclick="">確定</button>
         </div>
     </div>
+    
 </div>
 
 <div id="toastContainer"></div>
@@ -281,7 +301,7 @@ button:active { transform: translateY(0); }
 <script>
 // --- 多國語言設定 ---
 const uiDict = {
-    'zh-hant': { langLabel: '語言', title: '好友樹規劃器', addFr: '➕ 新增', delFr: '刪除當前', t1: '總好感度:', t2: '已花費蠟燭:', b1: '點火 (+1)', b5: '送心 (+5)', b10: '送禮包/季卡 (+10)', pv: '👀 全解鎖預覽', pvExit: '🔙 退出預覽', rst: '重置樹狀圖', export: '📥 匯出', import: '📤 匯入', myCandles: '我的蠟燭:', fmTitle: '選擇好友', search: '🔍 搜尋好友名稱...', cancel: '取消', ok: '確定', 
+    'zh-hant': { langLabel: '語言', title: '好友樹規劃器', addFr: '➕ 新增', delFr: '刪除當前', t1: '總好感度:', t2: '已花費蠟燭:', b1: '點火 (+1)', b5: '送心 (+5)', b10: '禮包 (+10)', pv: '👀 全解鎖預覽', pvExit: '🔙 退出預覽', rst: '重置樹狀圖', export: '📥 匯出', import: '📤 匯入', myCandles: '我的蠟燭:', fmTitle: '選擇好友', search: '🔍 搜尋好友名稱...', cancel: '取消', ok: '確定', 
         hint: `💡 提示：在未解鎖的圖示上 <b>點擊右鍵 (手機長按)</b> 可計算目標花費。`, 
         promptName: '請輸入好友暱稱：', noAff: '好感度不足', need: '需要', target: '🎯 目標計算', errOrd: '請先解鎖前一級的動作！',
         delConfirm: '確認刪除當前好友紀錄嗎？', resetConfirm: '⚠️ 警告：這將清空當前好友的所有解鎖紀錄，確定嗎？', cancelUnlock: '確定要取消解鎖「{0}」嗎？',
@@ -289,7 +309,7 @@ const uiDict = {
         // --- 新增的彈窗翻譯 ---
         t_lv: '待解鎖等級：', t_can: '總需蠟燭：', t_inv: '庫存判定：', t_aff: '門檻好感度：', t_diff: '(還差 {0})', t_met: '(✅ 已達標)'
     },
-    'zh': { langLabel: '语言', title: '好友树规划器', addFr: '➕ 新增', delFr: '删除当前', t1: '总好感度:', t2: '已花费蜡烛:', b1: '点火 (+1)', b5: '送心 (+5)', b10: '送礼包/季卡 (+10)', pv: '👀 全解锁预览', pvExit: '🔙 退出预览', rst: '重置树状图', export: '📥 导出', import: '📤 导入', myCandles: '我的蜡烛:', fmTitle: '选择好友', search: '🔍 搜索好友名称...', cancel: '取消', ok: '确定', 
+    'zh': { langLabel: '语言', title: '好友树规划器', addFr: '➕ 新增', delFr: '删除当前', t1: '总好感度:', t2: '已花费蜡烛:', b1: '点火 (+1)', b5: '送心 (+5)', b10: '礼包 (+10)', pv: '👀 全解锁预览', pvExit: '🔙 退出预览', rst: '重置树状图', export: '📥 导出', import: '📤 导入', myCandles: '我的蜡烛:', fmTitle: '选择好友', search: '🔍 搜索好友名称...', cancel: '取消', ok: '确定', 
         hint: `💡 提示：在未解锁的图标上 <b>点击右键 (手机长按)</b> 可计算目标花费。`, 
         promptName: '请输入好友昵称：', noAff: '好感度不足', need: '需要', target: '🎯 目标计算', errOrd: '请先解锁前一级的动作！',
         delConfirm: '确认删除当前好友纪录吗？', resetConfirm: '⚠️ 警告：这将清空当前好友的所有解锁纪录，确定吗？', cancelUnlock: '确定要取消解锁「{0}」吗？',
@@ -297,7 +317,7 @@ const uiDict = {
         // --- 新增的彈窗翻譯 ---
         t_lv: '待解锁等级：', t_can: '总需蜡烛：', t_inv: '库存判定：', t_aff: '门槛好感度：', t_diff: '(还差 {0})', t_met: '(✅ 已达标)'
     },
-    'en': { langLabel: 'Lang', title: 'Friend Tree Planner', addFr: '➕ Add', delFr: 'Del Current', t1: 'Affection:', t2: 'Candles Spent:', b1: 'Light (+1)', b5: 'Heart (+5)', b10: 'Gift Pack/Gift AP (+10)', pv: '👀 Preview All', pvExit: '🔙 Exit Preview', rst: 'Reset Tree', export: '📥 Export', import: '📤 Import', myCandles: 'My Candles:', fmTitle: 'Select Friend', search: '🔍 Search name...', cancel: 'Cancel', ok: 'OK', 
+    'en': { langLabel: 'Lang', title: 'Friend Tree Planner', addFr: '➕ Add', delFr: 'Del Current', t1: 'Affection:', t2: 'Candles Spent:', b1: 'Light (+1)', b5: 'Heart (+5)', b10: 'Pack (+10)', pv: '👀 Preview All', pvExit: '🔙 Exit Preview', rst: 'Reset Tree', export: '📥 Export', import: '📤 Import', myCandles: 'My Candles:', fmTitle: 'Select Friend', search: '🔍 Search name...', cancel: 'Cancel', ok: 'OK', 
         hint: `💡 Hint: <b>Right-click (long-press)</b> to calc cost.`,
         promptName: 'Enter friend name:', noAff: 'Not enough affection', need: 'Requires', target: '🎯 Target Cost', errOrd: 'Unlock previous level first!',
         delConfirm: 'Delete current friend record?', resetConfirm: '⚠️ Warning: This will reset all unlocks for this friend. Are you sure?', cancelUnlock: 'Cancel unlock for "{0}"?',
@@ -306,6 +326,37 @@ const uiDict = {
         t_lv: 'To Unlock: ', t_can: 'Total Candles: ', t_inv: 'Inventory: ', t_aff: 'Req. Affection: ', t_diff: '(Need {0} more)', t_met: '(✅ Met)'
     }
 };
+
+const versionData = [
+    { ver: 'v1.0.0', date: '2026-07-04',changes: {
+            'zh-hant': [
+                '首次發布：好感度樹狀圖與蠟燭花費追蹤',
+                '新增好友多檔案切換',
+                '新增匯出/匯入功能',
+                '新增全解鎖預覽模式',
+                '新增好感度目標計算功能'
+                ],
+
+                'zh': [
+                '首次发布：支持 QR Code 扫描与手动粘贴两种输入方式',
+                '首次发布：好感度树状图与蜡烛花费追踪',
+                '新增好友多档案切换',
+                '新增导出/导入功能',
+                '新增全解锁预览模式',
+                '新增好感度目标计算功能'
+                ],
+
+                'en': [
+                'Initial release: supports QR code scan and manual paste input',
+                'Initial release: affinity tree diagram and candle cost tracking',
+                'Added multi-profile switching for friends',
+                'Added export/import functionality',
+                'Added full-unlock preview mode',
+                'Added affinity goal calculation feature'
+                ]
+        }
+    }
+];
 
 let currentLang = localStorage.getItem('sky_tool_lang') || 'zh-hant';
 let rawJSONData = {};
@@ -336,6 +387,12 @@ function initApp() {
     }).catch(err => {
         document.getElementById('treeContainer').innerHTML = "<p style='color:red; text-align:center;'>無法載入資料 (Failed to load data). 確保 JSON 檔案存在於 data/friend_tree.json</p>";
     });
+    renderChangelog();
+    if (localStorage.getItem('sky_tool_changelog_collapsed') !== '0') {
+        document.getElementById('changelog-body').classList.add('collapsed');
+        document.getElementById('changelog-header').classList.add('collapsed');
+    }
+    
 }
 
 function finalizeInit() {
@@ -383,7 +440,38 @@ function showPrompt(title, onConfirm) {
     setTimeout(()=>input.focus(), 100);
 }
 
+function renderChangelog() {
+        const listContainer = document.getElementById('changelog-list');
+        if (!listContainer || typeof versionData === 'undefined') return;
+    
+        listContainer.innerHTML = versionData.map(item => {
+            const contentList = item.changes[currentLang] || item.changes['en'];
+            const listHtml = contentList.map(text => `<li>${text}</li>`).join('');
+    
+            return `
+                <div class="version-item">
+                    <div class="version-header">
+                        <span class="version-tag">${item.ver}</span>
+                        <span class="version-date">${item.date}</span>
+                    </div>
+                    <ul class="version-content">
+                        ${listHtml}
+                    </ul>
+                </div>
+            `;
+        }).join('');
+    }
+    
+
 // --- 切換邏輯 ---
+function toggleChangelog() {
+        const header = document.getElementById('changelog-header');
+        const body = document.getElementById('changelog-body');
+        const collapsed = body.classList.toggle('collapsed');
+        header.classList.toggle('collapsed', collapsed);
+        localStorage.setItem('sky_tool_changelog_collapsed', collapsed ? '1' : '0');
+    }
+
 function toggleTheme() {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
@@ -561,7 +649,7 @@ function exportData() {
             data.dataStore[key] = localStorage.getItem(key) || "false";
         });
     });
-    // ✅ 這裡加入 4 格縮排 (indentation)
+
     const blob = new Blob([JSON.stringify(data, null, 4)], {type: 'application/json'});
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
